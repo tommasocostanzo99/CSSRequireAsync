@@ -171,6 +171,7 @@ var CSSRequireAsync = (
         
         function __getCSSRuleSelectorOption (selector, option)
         {
+            // Syntax: selector [option="value"].
             var value;
             
             if (selector.indexOf(" " + "[" + option + "]") !== -1)
