@@ -17,15 +17,12 @@ Then use the following syntax in your external style sheets:
 ```css
 /* main.css */
 require { content: "path/foo.css" }
-require { content: "path/bar.css" }
 ...
 ```
 or directly inline:
 ```html
 <style type="text/css">
-    require { content: "path/foo.css" }
     require { content: "path/bar.css" }
-    ...
 </style>
 ```
 
