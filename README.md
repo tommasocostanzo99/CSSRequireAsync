@@ -16,8 +16,9 @@ Then use the following syntax in your external style sheets:
 ```
 ```css
 /* main.css */
+require { content: "url" }
 require { content: "path/foo.css" }
-...
+require { content: "path/bar.css" }
 ```
 or directly inline:
 ```html
