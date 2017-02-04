@@ -39,5 +39,13 @@ The `require` rule is used to import style rules from other style sheets and you
 ### Google Chrome
 The engine does not work when accessing a file locally using the file:/// protocol because of Chrome's security reasons, you can avoid this by accessing your document using your website or localhost or by placing the require rules inline (this limitation is only for who wants to test locally with the file protocol with Google Chrome).
 
+### Base Path
+If you use:
+```css
+require { content: url("path/foo.css") }
+```
+The final path will be related to the CSS file which contains this require rule.
+If you use the standard way the path will be related to the HTML file which included the CSS file.
+
 ### MIT License
 Copyright (C) 2017 Vasile Pește
