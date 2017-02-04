@@ -1,5 +1,5 @@
 # CSSRequireAsync
-Require CSS asynchronously directly from your CSS code with a simple rule thanks to a smart JS engine.
+Require CSS asynchronously directly from your CSS code with a simple rule thanks to a smart JS engine (2KB).
 
 ## Require
 Loading CSS resources using `@import` or `link` will cause most browsers to delay page rendering while the style sheet loads and there are many JavaScript projects that avoid this problem, the difference is that this engine allows you to import CSS resources directly from your CSS code with a syntax similar to the standard `@import` at-rule with the difference that the request will be asynchronous.
@@ -8,7 +8,7 @@ Plus you don't have to write a line of JavaScript code, just import the engine.
 ## Usage
 First include the engine:
 ```html
-<script type="text/css" src="css-require-async-v1.0.0.min.js"></script>
+<script type="text/css" src="css-require-async-v1.1.0.min.js"></script>
 ```
 Then use the following syntax in your external style sheets:
 ```html
@@ -48,6 +48,12 @@ require { content: url("path/foo.css") }
 ```
 The final path will be related to the CSS file which contains this require rule.
 If you use the standard way the path will be related to the HTML file which included the CSS file.
+
+## Changelog
+    1.1.0
+        - New: now you can use the require rule also in nested files.
+        - Added more comments to the code.
+    1.0.0 - First engine version.
 
 ### MIT License
 Copyright (C) 2017 Vasile Pește
