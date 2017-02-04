@@ -8,7 +8,7 @@ Plus you don't have to write a line of JavaScript code, just import the engine.
 ## Usage
 First include the engine:
 ```html
-<script type="text/css" src="css-require-async-v1.1.0.min.js"></script>
+<script type="text/javascript" src="css-require-async-v1.1.0.min.js"></script>
 ```
 Then use the following syntax in your external style sheets:
 ```html
