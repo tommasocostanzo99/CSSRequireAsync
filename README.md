@@ -1,5 +1,5 @@
 # CSSRequireAsync
-Include CSS asynchronously directly from your CSS code thanks to a small JS engine.
+Require CSS asynchronously directly from your CSS code with a simple rule thanks to a smart JS engine.
 
 ## Require
 Loading CSS resources using `@import` or `link` will cause most browsers to delay page rendering while the style sheet loads and there are many JavaScript projects that avoid this problem, the difference is that this engine allows you to import CSS resources directly from your CSS code with a syntax similar to the standard `@import` at-rule with the difference that the request will be asynchronous.
