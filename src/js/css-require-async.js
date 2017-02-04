@@ -75,7 +75,7 @@ var CSSRequireAsync = (
             
             link.setAttribute("rel", "stylesheet");
             // link.setAttribute("type", "text/css");
-            link.setAttribute("media", "only async");
+            link.setAttribute("media", "mock");
             link.setAttribute("href", url);
             
             link.addEventListener
